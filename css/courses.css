@@ -1,0 +1,141 @@
+
+
+.course-page { 
+    padding: 9% ;
+    padding-top: 8%;
+    border-style: 1px solid;
+    display: inline-block   ;
+}
+
+.mix{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.courses2{
+width: 75%;
+float: left;
+}
+
+.courses2 div {
+    color: black;
+    background-color: white;
+    list-style: none;
+    width: 100%;
+    padding-bottom: 1.2em;
+    margin-bottom: 3em;
+
+}
+
+hr{
+    width: cover;
+}
+
+.courses2 div img {
+    height: 31.25em;
+    width: 100%;
+}
+
+.courses2 div h5{
+    font-size: 2em;
+    margin-left: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    width: 20em;
+}
+
+.courses2 div p{
+    font-size: 1.2em;
+    width: cover;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    padding: 0 3.125em;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.courses2 h4 {
+   
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    font-size: 2em;
+    margin-left: 2em;
+    float: left;
+    margin-top: 1.2em;
+}
+.courses2 div button {
+    width: 20%;
+    height: 3.125em;
+    margin-top: 2.5em;
+    background-color: #FFD523;
+    border: 00.5px solid #50CB93;
+    border-radius: 0.3125em;
+    color: #595260;
+    font-family: Roboto Mono;
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin-left: 60%;
+    margin-top: 1.5em;
+}
+
+.courses2 div button h4 {
+    display: inline-block;
+}
+
+.courses2 div button:hover {
+    background-color: #595260;
+    color: #FFD523;
+}
+.btn{
+    width: 20%;
+    margin-left: 5em;
+    height: 20em;
+    display: inline-block;
+}
+
+.btn ul {
+    position: fixed;
+    display: inline-block;
+    list-style: none;
+    top: 6.5em;
+    right: 0px;
+    left: 70em;
+    width: 12.625em;
+   
+
+}
+
+.btn input {
+    font-size: 1.1em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    width: 150%;
+    padding: 0.625em;
+    background: linear-gradient(
+50deg
+, #2f7bd7, #4371a8, #123c6e);
+    border-radius: 0.375em;
+    color: white;
+}
+
+.btn  li {
+    padding: 0.625em;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #FFD523;
+    border: 00.5px solid #50CB93;
+    color: #595260;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+#myBtn:hover {
+    background-color: #595260;
+    color: #FFD523;
+}

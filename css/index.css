@@ -1,0 +1,275 @@
+.intro, .intro2, .intro3, .code-editor{
+width: 100%;
+height: 44em;
+float: left;
+display: block;
+box-sizing: border-box;
+padding: 6em 9% 0;
+animation: fadeIn 2s;
+
+
+}
+
+  
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+       opacity: 3;
+    }
+  }
+  .intro h1 {
+      font-family: 'Ubuntu', sans-serif;
+  font-size: 3em;
+  width: 10em;
+  }
+  .intro h2 {
+      color: rgb(19, 133, 197);
+      text-align: left;  
+      font-size: 1.2em; 
+  }
+  .intro p, .intro2 p {
+      font-size: 1.2em;
+      padding-top: 0;
+      width: 40%;
+      display: block;
+  }
+.intro-img1{
+position: absolute;
+width: 62em;
+left: 33em;
+right: 0px;
+height: 30em;
+top: 10em;
+z-index: -1;
+}
+
+
+.intro2{
+width: 100%;
+float: left;
+background-color: #FFD523;
+height: 28em;
+padding-top: 4.5em;
+margin-top: 5em;
+
+}
+.intro2 h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4em;
+  width: 6em;
+  margin: 0;
+}
+.intro2 button{
+border: none;
+color: white;
+text-align: center;
+margin: 1em;
+transition-duration: 0.4s;
+cursor: pointer;
+background-color: red;
+color: black;
+width: 25em;
+  height: 5em;
+  border-radius: 3em;
+}
+
+.intro2 a{
+font-family: 'Ubuntu', sans-serif;
+text-decoration: none;
+  font-size: 2em;
+  color: white;
+}
+.intro-img{
+  position: absolute;
+  top: 39.2em;
+  left: 57em;
+  height: 50em;
+  width: 39em;
+}
+
+
+.courses {
+  width: 100%;
+  height: 35em;
+  float: left;
+  display: block;
+  box-sizing: border-box;
+
+}
+.intro3  {
+  padding: 4em 9% 0;
+  height: 17em;
+}
+
+
+.intro3 h1 {
+  font-family: 'Ubuntu', sans-serif;
+font-size: 2.5em;
+
+}
+
+.intro3p {
+  font-size: 1.5em;
+  padding-top: 0;
+  display: block;
+}
+.courses-div{
+width: 100%;
+height: 44em;
+float: left;
+display: block;
+box-sizing: border-box;
+padding: 0 9%;
+}
+.course{
+width: 24.5%;
+display: inline-block;
+margin: 0;
+box-sizing: border-box;
+padding: .8em;
+}
+.course img{
+width: 100%;
+height: 15em;
+border-style: inset ;
+}
+.course h2{
+width: 100%;
+font-size: 1.2em;
+margin-top: .2em;
+height: 2.5em;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.course p{
+height: 4.5em;
+overflow: hidden;
+text-overflow: ellipsis;
+color: #AAAAAA;
+}
+.see-course{
+  border: none;
+  background-color: #2d7adb;
+  color: white;
+  width: 6em;
+  height: 2em;
+  border-radius: .5em;
+  font-size: .9em;
+  font-weight: bold;
+
+}
+.course h3,.course h4{
+display: inline-block;
+font-size: 1.1em;
+font-weight: 600;
+  margin: .5em 0;
+
+}
+.course h4{
+  display: inline-block;
+  text-decoration: line-through;
+  margin-left: .5em;
+  color: #7f7d7d;
+  }
+
+  .more-btn {
+    text-align: center;
+    width: 100%;
+    margin-top: 2.5em;
+  }
+  .more-btn input{
+    border: none;
+    background-color: #2d7adb;
+    color: white;
+    width: 7em;
+    height: 3em;
+    border-radius: 3em;
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+
+  .code-editor{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 31%, rgba(1,79,172,1) 100%, rgba(0,212,255,1) 100%);
+    max-width: 100%;
+    margin-top: 6em;
+    height: 30em;
+    padding-top: 4em ;
+
+  }
+  .code-editor h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5em;
+    color: white;
+    margin-bottom: 0;
+    
+  }
+.code-editor p {
+font-size: 1.3em;
+  padding-top: 0;
+  display: block;
+  color: #7e7e7e;
+
+
+}
+
+.code-editor img{
+position: absolute;
+top: 148.7em;
+left: 65em;
+height: 24em;
+width: 24em;
+
+}
+.code-editor button{
+border: none;
+color: white;
+text-align: center;
+margin: 1em;
+transition-duration: 0.4s;
+cursor: pointer;
+background-color: #2771d0;
+color: black;
+width: 27em;
+  height: 5em;
+  border-radius: 3em;
+}
+
+.code-editor a{
+font-family: 'Ubuntu', sans-serif;
+text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+}
+
+.feature {
+
+text-align: center;
+width: 100%;
+height: 25em;
+float: left;
+display: block;
+box-sizing: border-box;
+padding: 8em 9% 0;
+}
+
+.feature .col3{
+ width: 30%;
+ display: inline-block;
+}
+.col3 i{   
+  font-size: 4em;
+color: gray;
+
+}
+.col3 h3{
+margin: 0.5em 0 0;
+  font-size: 1.5em;
+}
+.col3 p{
+margin: 0.5em 0 0;
+   font-size: 1em;
+}

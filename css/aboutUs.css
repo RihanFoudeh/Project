@@ -1,0 +1,131 @@
+
+* {
+    box-sizing: border-box;
+   }
+   main{
+    margin: 8em 0 10em;
+}
+   
+   }
+   .aboutUS{
+     width: 100%;
+     padding: 0 9%;
+   }
+   
+   input[name=feedBack] {
+      
+       height: 150px;
+       padding: 12px 20px;
+       box-sizing: border-box;
+       border: 2px solid #ccc;
+       border-radius: 4px;
+       background-color: #f8f8f8;
+       font-size: 16px;
+       resize: none;
+     }
+     
+     input[type=submit]  {
+       background-color: #4CAF50;
+       border: none;
+       color: white;
+       padding: 16px 32px;
+       text-decoration: none;
+       margin: 4px 2px;
+       cursor: pointer;
+       width: 15%;
+     }
+     input {
+       
+       padding: 20px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       resize: vertical;
+       float: left;
+       width: 75%;
+       margin-top: 6px;
+     }
+     label {
+       padding: 12px 25px 12px 0;
+       display: inline-block;
+       float: left;
+       width: 50%;
+       margin-top: 6px;
+     }
+     
+  input[type=submit] {
+   background-color: #2771d0;
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   float: right;
+  }
+  input[type=submit]:hover {
+   background-color: #6296db;
+   
+  }
+  #form {
+   border-radius: 5px;
+   background-color: #f2f2f2;
+   padding: 20px;
+   width: 75%;
+   margin-left: 10%;
+   border: 1px solid gray;
+  }
+  h2{
+
+    font-size: 30px;
+  }
+   
+  #aboutOurWebpage , #JavaScript-Warriors{
+    text-align: justify;
+    padding: 50px;
+    letter-spacing: 0.8px;
+    line-height: 1.8;
+    word-spacing: 1.5px;
+    width: 100%;
+    padding: 0 9%;
+    
+  }
+  #aboutOurWebpage h2 , #JavaScript-Warriors h2 {
+    text-transform: uppercase;
+    padding: 1em;
+  }
+.pargraph , .text{
+  text-align: center;
+  padding: 12px;
+  letter-spacing: 0.8px;
+  line-height: 1.8;
+  word-spacing: 1.5px;
+}
+.pargraph {
+width: 60em;
+margin: 0 auto;
+}
+.mySlides{
+  display: block;
+  margin-left: 100%;
+  
+  width: 50%;
+  border-radius: 50%;
+  
+}
+#slideShow{
+
+  background-color: white;
+  padding: 2em;
+margin: 7em 0;  
+}
+
+footer{
+  height: 30em;
+}
+.logo-img {
+  height: 85%;
+  padding-top: 5%;
+}
+
+li {
+  padding-top: 4%;
+}

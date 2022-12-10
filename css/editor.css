@@ -1,0 +1,50 @@
+/* for editor */
+.editormain {
+    text-align: center;
+    margin-top: 10em;
+
+  }
+  
+  textarea {
+    width: 40%;
+    float: text;
+    min-height: 270px;
+    margin-left: 5%;
+    /* overflow: scroll; */
+    /* margin: auto; */
+    display: list-item;
+    color: chartreuse;
+    background: #333335;;
+    outline: none;
+    font-family: Courier, sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+  }
+  iframe{
+   /* color: red; */
+  }
+   #code {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 2%;
+    /* margin-left: 19%; */
+    width: 50%;
+    height: 53.5em;
+    background-color: white;
+    box-shadow: 0 8px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    /* background: blue; */
+    top: 11em;
+    left: 45em;
+  }
+
+
+  .editor{
+    border-style:5px solid;
+   
+  }
+
+  footer{
+    margin-top: 7em;
+    height: 25em;
+    padding-bottom: 0px;
+  }

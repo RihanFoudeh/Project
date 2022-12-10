@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <script src="https://kit.fontawesome.com/43b06b8078.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <header>
+        <div class="logo">
+          <a href="index.html">
+            <img src="imgs/logo2.png" alt="" class="logo-img" />
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="courses.html">Courses</a>
+            </li>
+            <li>
+              <a href="editor.html">Editor</a>
+            </li>
+            <li>
+              <a href="aboutUs.html">About</a>
+            </li>
+            <li>
+              <a href="cart.html" id="cartIcon">Cart</a>
+            </li>
+            <li>
+              <a href="goToQuiz.html">Discount!</a>
+            </li>
+              <div class="search">
+                <form action="#">
+                    <input type="text"
+                        placeholder=" Search Courses"
+                        name="search">
+                    <button>
+                        <i class="fa fa-search">
+                        </i>
+                    </button>
+                </form>
+            </div>
+            
+          </ul>
+        </nav>
+      </header>
+      
+    <main>
+        
+        <form name='quiz' id='quiz'>
+            <h2>QUIZ <hr/>  Answer the following 5 questions</h2>
+          
+            
+            <div>
+                
+                <p class="questiontext">1.what is abbreviation of HTML?</p>
+                <p><input type="radio" name="question1" value="HyperText Markup Language">A. HyperText Markup Language</p>
+
+                <p><input type="radio" name="question1" value="HyperText Markdown Language">B. HyperText Markdown Language</p>
+
+                <p><input type="radio" name="question1" value="Hyper Text Modul Language">C. Hyper Text Modul Language</p>
+
+                <p><input type="radio" name="question1" value="Hyper Test Markup Language">D. Hyper Test Markup Language</p>
+            </div>
+<br>
+<br>
+            <div>
+                <p class="questiontext">2. The external JavaScript file must contain the script tag </p>
+                <p><input type="radio" name="question2" value="False">A. False </p>
+
+                <p><input type="radio" name="question2" value="True">B. True</p>
+
+
+            </div>
+<br>
+<br>
+            <div>
+                <p class="questiontext">3.How do you write "Hello World" in an alert box??</p>
+                <p><input type="radio" name="question3" value="msgBox('Hellow World')">A. msgBox('Hellow World')</p>
+
+                <p><input type="radio" name="question3" value="msg('Hellow World')">B. msg('Hellow World')</p>
+
+                <p><input type="radio" name="question3" value="alert('Hellow World')">C. alert('Hellow World')</p>
+
+                <p><input type="radio" name="question3" value="alertBox('Hellow World')">D. alertBox('Hellow World')</p>
+            </div>
+<br>
+<br>
+            <div>
+                <p class="questiontext" >4. Which HTML attribute is used to define inline styles?</p>
+                <p><input type="radio" name="question4" value="font">A. font</p>
+
+                <p><input type="radio" name="question4" value="class">B. class</p>
+
+                <p><input type="radio" name="question4" value="style">C. style</p>
+
+                <p><input type="radio" name="question4" value="styles">D. styles</p>
+            </div>
+<br><br>
+            <div>
+                <p class="questiontext">5. All variables in PHP start with which symbol?</p>
+                <p><input type="radio" name="question5" value="!">A.  ! </p>
+
+                <p><input type="radio" name="question5" value="%">B.  % </p>
+
+                <p><input type="radio" name="question5" value="$">C.  $ </p>
+
+                <p><input type="radio" name="question5" value="#">D.  # </p>
+            </div>
+            <br>
+            <br>
+            <input id="shwoResult" type="button" name="" value="submit" onclick="check()">
+        </form>
+        
+
+<p id="result"></p>
+
+
+
+
+
+    </main>
+    
+    <footer>
+        <div class="about1">
+            <h2>About</h2>
+            <hr>
+            
+            <p>Develop yourself in the digital era for a brighter tomorrow. Our community is here to help along the way.</p>
+        </div>
+        <div class="about">
+            <h2>Courses </h2>
+            <hr>
+            <ul>
+                <li>
+                    <a href="">Front End Development</a>
+                </li>
+                <li>
+                    <a href="">Backend End Development</a>
+                </li>
+                <li>
+                    <a href="">DataBases</a>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="about">
+            <h2>Useful Links</h2>
+            <hr>
+            <ul>
+                <li>
+                    <a href="https://www.w3schools.com/">W3schools</a>
+                </li>
+                
+                <li>
+                    <a href="https://www.udemy.com/">Udemy</a>
+                </li>
+                
+                <li>
+                    <a href="https://www.google.com/">Google</a>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="about">
+            <h2> Contact</h2>
+            <hr>
+            <ul>
+                <li>
+                  <i class="fas fa-home"></i>
+                  <a href="">Jordan/Amman</a>
+                </li>
+                
+                <li>
+                  <i class="far fa-envelope"></i>
+                  <a href="">info@example.com</a>
+                </li>
+             
+                <li>
+                  <i class="fas fa-phone"></i>
+                  <a href="">+96278888888</a>
+                </li>
+                
+            </ul>
+        </div>
+    <section class="links" >
+        <div>
+            <h3 class="footerP">Get connected with us on social networks</h3>
+        </div>
+        
+        <div class="footerImg">
+            <a href="">
+                <img src="imgs/github.png" alt="">
+            </a>
+            <a href="">
+                <img src="imgs/instagram.png" alt="">
+            </a>
+            <a href="">
+                <img src="imgs/whatsapp.png" alt="">
+            </a>
+            <a href="">
+                <img src="imgs/facebook.png" alt="">
+            </a>
+            <a href="">
+                <img src="imgs/twitter.png" alt="">
+            </a>
+        </div>
+    </section>
+        <section class="copyright">
+            <p>&copy;2022 CodeicBoot </p>
+        </section>
+       
+      </footer>
+      <script src="js/app.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+
+</html>
